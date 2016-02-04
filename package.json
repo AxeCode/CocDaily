@@ -20,9 +20,8 @@
   "devDependencies": {
     "express": "^4.13.4",
     "gulp": "^3.9.0",
+    "gulp-express": "^0.3.5",
     "kerberos": "0.0.18",
-    "mongodb": "^2.0.55",
-    "mongoose": "^4.3.7",
-    "mongoskin": "^2.0.3"
+    "mongodb": "^2.0.55"
   }
 }
