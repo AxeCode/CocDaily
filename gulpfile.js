@@ -7,4 +7,4 @@ gulp.task('server', function(err) {
     }
     server.run(['app.js']);
     gulp.watch(['*.js'], server.run);
-});
+})
