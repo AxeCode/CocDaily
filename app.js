@@ -6,8 +6,8 @@ var app = express();
 var api = require('./api');
 var web = require('./api');
 var error = require('./error');
-var privateKey = fs.readFileSync('secret/private.pem', 'utf-8');
-var certificate = fs.readFileSync('secret/secret.crt', 'utf-8');
+var privateKey = fs.readFileSync('.secret/private.pem', 'utf-8');
+var certificate = fs.readFileSync('.secret/secret.crt', 'utf-8');
 var credentials = {
     key: privateKey,
     cert: certificate

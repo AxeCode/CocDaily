@@ -1,27 +1,35 @@
 {
-    "name": "cocdaily",
-    "version": "1.0.0",
-    "description": "Daily of Clash of Clans",
-    "main": "app.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node server.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/AxeCode/CocDaily.git"
-    },
-    "author": "Axecode",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/AxeCode/CocDaily/issues"
-    },
-    "homepage": "https://github.com/AxeCode/CocDaily#readme",
-    "devDependencies": {
-        "express": "^4.13.4",
-        "gulp": "^3.9.0",
-        "gulp-express": "^0.3.5",
-        "kerberos": "0.0.18",
-        "mongodb": "^2.0.55"
-    }
+  "name": "cocdaily",
+  "version": "1.0.0",
+  "description": "Daily of Clash of Clans",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AxeCode/CocDaily.git"
+  },
+  "author": "Axecode",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AxeCode/CocDaily/issues"
+  },
+  "homepage": "https://github.com/AxeCode/CocDaily#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.3",
+    "gulp": "^3.9.0",
+    "gulp-express": "^0.3.5",
+    "gulp-webpack": "^1.5.0",
+    "webpack": "^1.12.13"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "toastr": "^2.1.2",
+    "kerberos": "0.0.18",
+    "mongodb": "^2.0.55"
+  }
 }

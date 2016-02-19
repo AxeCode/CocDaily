@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="../assets/stylesheets/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../assets/unslider/dist/css/unslider.css">
+    <link rel="stylesheet" type="text/css" href="../assets/stylesheets/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="banner">
+            <ul>
+                <li class="text-center" style="background-image: url('../assets/images/sunset.jpg');">
+                    <h1>First Page</h1>
+                </li >
+                <li class="text-center" style="background-image: url('../assets/images/subway.jpg');">
+                    <h1>Second Page</h1>
+                </li>
+                <li class="text-center" style="background-image: url('../assets/images/shop.jpg');">
+                    <h1>Third Page</h1>
+                </li>
+                <li class="text-center" style="background-image: url('../assets/images/wood.jpg');">
+                    <h1>Fourth Page</h1>
+                </li>
+            </ul>
+            <div class="unslider-nav">
+                <ol class="dots">
+                    <li class="dot">1</li>
+                    <li class="dot">2</li>
+                    <li class="dot">3</li>
+                    <li class="dot">4</li>
+                </ol>
+            </div>
+        </div>
+        <div class="cotent">
+            <h1 class="text-center">Test</h1>
+        </div>
+        <div class="footer">
+
+        </div>
+    </div>
+</body>
+<script src="../assets/javascripts/jquery-2.2.0.js" type="text/javascript"></script>
+<script src="../assets/unslider/dist/js/unslider-min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('.banner').unslider({
+        'autoplay': true,
+        // 'nav':false
+        // 'arrows': true,
+    });
+});
+</script>
+
+</html>
